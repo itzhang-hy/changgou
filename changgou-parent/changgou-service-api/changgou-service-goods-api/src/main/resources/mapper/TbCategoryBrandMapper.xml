@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.changgou.goods.api.mapper.TbCategoryBrandMapper">
+  <resultMap id="BaseResultMap" type="com.changgou.goods.api.pojo.TbCategoryBrand">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="category_id" jdbcType="INTEGER" property="categoryId" />
+    <id column="brand_id" jdbcType="INTEGER" property="brandId" />
+  </resultMap>
+</mapper>

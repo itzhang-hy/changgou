@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.changgou.goods.api.mapper.TbCategoryMapper">
+  <resultMap id="BaseResultMap" type="com.changgou.goods.api.pojo.TbCategory">
+    <!--
+      WARNING - @mbg.generated
+    -->
+    <id column="id" jdbcType="INTEGER" property="id" />
+    <result column="name" jdbcType="VARCHAR" property="name" />
+    <result column="goods_num" jdbcType="INTEGER" property="goodsNum" />
+    <result column="is_show" jdbcType="CHAR" property="isShow" />
+    <result column="is_menu" jdbcType="CHAR" property="isMenu" />
+    <result column="seq" jdbcType="INTEGER" property="seq" />
+    <result column="parent_id" jdbcType="INTEGER" property="parentId" />
+    <result column="template_id" jdbcType="INTEGER" property="templateId" />
+  </resultMap>
+</mapper>

@@ -1,0 +1,23 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  application:
+    name: file
+  datasource:
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://192.168.192.157:3306/changgou_goods?useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 192.168.192.150:8848
+    sentinel:
+      transport:
+        port: 8719
+        dashboard: 192.168.192.150:8080
+server:
+  port: 18082
