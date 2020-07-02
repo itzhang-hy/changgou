@@ -32,7 +32,7 @@
         <spring-boot-pagehelper.version>1.2.10</spring-boot-pagehelper.version>
 
         <!-- Commons Settings -->
-        <mysql.version>8.0.13</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <hibernate-jpa-2.1-api.version>1.0.2</hibernate-jpa-2.1-api.version>
         <swagger2.version>2.8.0</swagger2.version>
         <net-alchim31-maven.version>1.5.1</net-alchim31-maven.version>
